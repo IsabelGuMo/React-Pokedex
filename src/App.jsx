@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="TitleSection">
-        <h1>Pokédex</h1>
+        <h1>POKÉDEX</h1>
         <input
           type="text"
           onChange={(event) => {

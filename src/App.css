@@ -52,15 +52,16 @@ body {
 
 .DisplaySection {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 400px;
+  margin-top: 40px;
+  padding: 20px;
+  width: 50%;
+  min-width: 220px;
+  max-width: 400px;
   background-color:#464646;
   border-radius: 10px;
   font-size: 18px;
-  text-transform: capitalize;
-  padding-left: 10px;
-  border: none;
+  text-transform:uppercase;
   color: #f0dba5;
 }
 
