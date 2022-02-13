@@ -39,9 +39,9 @@ const App = () => {
   return (
     <div className="App">
       <div className="TitleSection">
-        <h1>POKÉDEX</h1>
+        <h1 className="title">Pokédex</h1>
         <input
-          type="text"
+          type="text" placeholder="Whrite Pokémon's name"
           onChange={(event) => {
             setPokemonName(event.target.value);
           }}
@@ -51,7 +51,7 @@ const App = () => {
       </div>
       <div className="DisplaySection">
       {!pokemonChosen ? (
-          <h1> Please choose a Pokémon </h1>
+          <h1> Gotta Catch'Em All </h1>
         ) : (
           <>
             <h1>{pokemon.name}</h1>

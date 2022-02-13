@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color:#c04c4b ;
 }
 
 .TitleSection input {
@@ -52,17 +53,22 @@ body {
 
 .DisplaySection {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  padding: 20px;
+  padding: 10px;
   width: 50%;
   min-width: 220px;
   max-width: 400px;
   background-color:#464646;
   border-radius: 10px;
-  font-size: 18px;
-  text-transform:uppercase;
+  font-size: 15px;
+  text-align: center;
   color: #f0dba5;
+}
+
+input {
+  background-color: #e7e7e6;
 }
 
 
