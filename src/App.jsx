@@ -55,7 +55,9 @@ const App = () => {
         ) : (
           <>
             <h1>{pokemon.name}</h1>
-            <img src={pokemon.image} alt={pokemon.name} />
+            <div className="card">
+              <img src={pokemon.image} alt={pokemon.name} />
+            </div>
             <h3>Number: #{pokemon.number}</h3>
             <h3>Species: {pokemon.species}</h3>
             <h3>Type: {pokemon.type}</h3>

@@ -64,11 +64,18 @@ body {
   border-radius: 10px;
   font-size: 15px;
   text-align: center;
+  text-transform: capitalize;
   color: #f0dba5;
+}
+
+.card {
+  background-color: #c04c4b;
+  border-radius: 100%;
 }
 
 input {
   background-color: #e7e7e6;
 }
+
 
 
