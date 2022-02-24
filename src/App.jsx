@@ -41,7 +41,7 @@ const App = () => {
       <div className="TitleSection">
         <h1 className="title">Pokédex</h1>
         <input
-          type="text" placeholder="Whrite Pokémon's name"
+          type="text" placeholder="Write Pokémon's name"
           onChange={(event) => {
             setPokemonName(event.target.value);
           }}
